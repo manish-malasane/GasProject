@@ -19,7 +19,7 @@ and resolution details.
 
 # Installation and Setup
 #### Clone the repository:
-- git clone https://github.com/manish-malasane/GasUtility.git
+- git clone https://github.com/manish-malasane/GasProject.git
 - cd GasUtilityP
 - Create a virtual environment (optional but recommended):
 - python3 -m venv venv
