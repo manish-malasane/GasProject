@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Track Service Requests</title>
+</head>
+<body>
+    <h1>Track Service Requests</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Request Type</th>
+                <th>Status</th>
+                <th>Submitted At</th>
+                <th>Resolved At</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for request in requests %}
+            <tr>
+                <td>{{ request.request_type }}</td>
+                <td>{{ request.status }}</td>
+                <td>{{ request.submitted_at }}</td>
+                <td>{{ request.resolved_at }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
